@@ -53,7 +53,11 @@ numberOfReviewers: 0
 
 #### Add Github Team to Single Reviewers List
 
-Add Github team to the pull request based on single reviewers list using the `org/team_slug` or `/team_slug` syntax.
+Add Github team to the pull request based on single reviewers list using the `org/team_slug` or `/team_slug` syntax.  
+Note that this feature is not enabled in the hosted app below.  
+https://github.com/apps/auto-assign  
+
+You need to enable the team assign by changing the permission of GitHub App and host the app yourself.  
 
 ```yaml
 # Set to true to add reviewers to pull requests
